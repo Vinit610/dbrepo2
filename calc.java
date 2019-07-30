@@ -22,10 +22,11 @@ public class calc{
 	}
 	public static void main(String[] args){
 		Scanner in=new Scanner(System.in);
-		System.out.println("Enter the inputs");
+		//System.out.println("Enter the inputs");
 		int x=in.nextInt();
 		int y=in.nextInt();
 		System.out.println("Enter the type of operation");
+		System.out.println("Enter the type of operation........");
 		String operation = in.next();
 		double result = 0;
 		switch(operation){
