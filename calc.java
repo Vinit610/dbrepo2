@@ -2,14 +2,17 @@ import java.util.*;
 public class calc{
 	//add function
 	static double add(int x,int y){
+		System.out.println("This is add");
 		return (double)x+y;
 	}
 	// subtract function
 	static double subtract(int x,int y){
+		System.out.println("This is subtract");
 		return (double)x-y;
 	}
 	// multiply function
 	static double multiply(int x,int y){
+		System.out.println("This is multiply");
 		return (double)x*y;
 	}
 	// divide function
