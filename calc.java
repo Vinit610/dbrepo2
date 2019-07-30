@@ -1,14 +1,18 @@
 import java.util.*;
 public class calc{
+	//add function
 	static double add(int x,int y){
 		return (double)x+y;
 	}
+	// subtract function
 	static double subtract(int x,int y){
 		return (double)x-y;
 	}
+	// multiply function
 	static double multiply(int x,int y){
 		return (double)x*y;
 	}
+	// divide function
 	static double divide(int x,int y){
 		return (double)x/y;
 	}
