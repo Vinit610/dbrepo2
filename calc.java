@@ -14,6 +14,7 @@ public class calc{
 	}
 	// divide function
 	static double divide(int x,int y){
+		System.out.println("This is divide");
 		return (double)x/y;
 	}
 	public static void main(String[] args){
